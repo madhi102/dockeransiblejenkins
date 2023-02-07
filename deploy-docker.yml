@@ -21,7 +21,7 @@
     - name: Start the container
       docker_container:
         name: imagename
-        image: 'madhithara/imagename:{{DOCKER_TAG}}'
+        image: "madhithara/imagename:{{DOCKER_TAG}}"
         state: started
         published_ports:
-          - '0.0.0.0:8085:8080'
+          - '0.0.0.0:8085'
