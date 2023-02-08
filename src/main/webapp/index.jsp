@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Registration Form</title>
+    <style>
+      .card {
+        width: 400px;
+        height: 290px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #888888;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        color: #222;
+      }
+
+      p {
+        font-size: 18px;
+        color: #222;
+      }
+    </style>
   </head>
   <body>
-    <h1>Registration Form</h1>
-    <form action="submit.php" method="post">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username"><br><br>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br><br>
-      
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password"><br><br>
-      
-      <label for="confirm_password">Confirm Password:</label>
-      <input type="password" id="confirm_password" name="confirm_password"><br><br>
-      <B><h1>Thanks for learning, Madhivanan<h1><b/>
-      
-      <input type="submit" value="Submit">
-    </form>
+    <div class="card">
+      <h1>You're Invited! for Learning</h1>
+      <p>Join us for a special celebration on</p>
+      <p><strong>Date:</strong> Feb 08, 2023</p>
+      <p><strong>Time:</strong> 4:00 PM</p>
+      <p><strong>Location:</strong> Sify Tech, 4th Floor, Tidel Park</p>
+    </div>
   </body>
 </html>
