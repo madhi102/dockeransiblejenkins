@@ -17,6 +17,7 @@
       
       <label for="confirm_password">Confirm Password:</label>
       <input type="password" id="confirm_password" name="confirm_password"><br><br>
+      <B><h1>Thanks for learning, Madhivanan<h1><b/>
       
       <input type="submit" value="Submit">
     </form>
